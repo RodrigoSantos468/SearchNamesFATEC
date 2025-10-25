@@ -28,7 +28,7 @@ except:
 # -----------------------------
 # Título e descrição
 # -----------------------------
-st.title("Painel de Dados sobre Nomes 🧠")
+st.title("Painel de Dados sobre Nomes "🎲")
 st.write("Descubra curiosidades sobre o seu nome com dados reais!")
 
 # Entrada do usuário
