@@ -28,7 +28,7 @@ except:
 # -----------------------------
 # Título e descrição
 # -----------------------------
-st.title("FATEC PORTAS ABERTAS:NOMES 🎲")
+st.title("FATEC PORTAS ABERTAS 🎲")
 st.write("Descubra curiosidades sobre o seu nome com dados reais!")
 
 # Entrada do usuário
@@ -48,7 +48,8 @@ if nome:
 
         # Exibe o gênero
         if genero.get("gender"):
-            st.write(f"👤 Gênero provável: **{genero['gender']}** ({genero['probability']*100:.1f}%)")
+            
+                st.write(f"👤 Gênero provável: **{genero['gender']}** ({genero['probability']*100:.1f}%)")
         else:
             st.write("👤 Gênero não identificado.")
 
